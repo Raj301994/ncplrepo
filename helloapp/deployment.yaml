@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-container
-          image: spring-boot-app:latest   # change if using DockerHub
+          image: rajtestcan/rajtestimage:latest   # change if using DockerHub
           imagePullPolicy: Never         # use IfNotPresent for remote images
           ports:
             - containerPort: 8080
